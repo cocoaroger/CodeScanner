@@ -1,0 +1,19 @@
+PODS:
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 1fdda7fb51bbf8f921febeebd5281f70c05c8ecb
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: c34da5f231d7c38b8bc9d2cb08f81509d0bea7b0
+
+COCOAPODS: 0.38.2
