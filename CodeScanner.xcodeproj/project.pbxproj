@@ -20,10 +20,10 @@
 		DB74337A1BF9DB8A004B3FBF /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7433731BF9DB8A004B3FBF /* zbar-samples.png */; };
 		DB74337C1BF9DD84004B3FBF /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74337B1BF9DD84004B3FBF /* pick_bg@2x.png */; };
 		DB74337E1BF9DD9F004B3FBF /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB74337D1BF9DD9F004B3FBF /* line@2x.png */; };
-		DB7433801BF9E05D004B3FBF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74337F1BF9E05D004B3FBF /* AVFoundation.framework */; };
 		DB7433821BF9E0AF004B3FBF /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7433811BF9E0AF004B3FBF /* libzbar.a */; };
-		DB7433841BF9E13D004B3FBF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7433831BF9E13D004B3FBF /* CoreMedia.framework */; };
 		DB7433881BF9E1F5004B3FBF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7433871BF9E1F4004B3FBF /* libiconv.tbd */; };
+		DBB15C1E1DD46199002D4BE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB15C1D1DD46199002D4BE2 /* AVFoundation.framework */; };
+		DBB15C201DD461B5002D4BE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB15C1F1DD461B5002D4BE2 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,11 +68,11 @@
 		DB7433731BF9DB8A004B3FBF /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
 		DB74337B1BF9DD84004B3FBF /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
 		DB74337D1BF9DD9F004B3FBF /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
-		DB74337F1BF9E05D004B3FBF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DB7433811BF9E0AF004B3FBF /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
-		DB7433831BF9E13D004B3FBF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		DB7433851BF9E1E2004B3FBF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DB7433871BF9E1F4004B3FBF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DBB15C1D1DD46199002D4BE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DBB15C1F1DD461B5002D4BE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		E8CA13B9333E1F2C29E83282 /* Pods-CodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeScanner/Pods-CodeScanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,10 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB15C201DD461B5002D4BE2 /* CoreMedia.framework in Frameworks */,
+				DBB15C1E1DD46199002D4BE2 /* AVFoundation.framework in Frameworks */,
 				DB7433881BF9E1F5004B3FBF /* libiconv.tbd in Frameworks */,
-				DB7433841BF9E13D004B3FBF /* CoreMedia.framework in Frameworks */,
 				DB7433821BF9E0AF004B3FBF /* libzbar.a in Frameworks */,
-				DB7433801BF9E05D004B3FBF /* AVFoundation.framework in Frameworks */,
 				19B0CF891136ABF180208403 /* libPods-CodeScanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +104,10 @@
 		B422A759A69FE79E531898CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBB15C1F1DD461B5002D4BE2 /* CoreMedia.framework */,
+				DBB15C1D1DD46199002D4BE2 /* AVFoundation.framework */,
+				DB7433871BF9E1F4004B3FBF /* libiconv.tbd */,
+				DB7433851BF9E1E2004B3FBF /* libz.tbd */,
 				9240B62B8F4B89E9584F32D1 /* libPods-CodeScanner.a */,
 			);
 			name = Frameworks;
@@ -112,7 +116,6 @@
 		DB74332E1BF9DB22004B3FBF = {
 			isa = PBXGroup;
 			children = (
-				DB7433891BF9E214004B3FBF /* FrameWork */,
 				DB7433391BF9DB22004B3FBF /* CodeScanner */,
 				DB7433381BF9DB22004B3FBF /* Products */,
 				526A61721CDA5BFFE19D339D /* Pods */,
@@ -222,17 +225,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		DB7433891BF9E214004B3FBF /* FrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				DB7433871BF9E1F4004B3FBF /* libiconv.tbd */,
-				DB7433851BF9E1E2004B3FBF /* libz.tbd */,
-				DB7433831BF9E13D004B3FBF /* CoreMedia.framework */,
-				DB74337F1BF9E05D004B3FBF /* AVFoundation.framework */,
-			);
-			name = FrameWork;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,7 +254,7 @@
 		DB74332F1BF9DB22004B3FBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = roger;
 				TargetAttributes = {
 					DB7433361BF9DB22004B3FBF = {
@@ -403,8 +395,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -446,8 +440,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -478,7 +474,7 @@
 				DEVELOPMENT_TEAM = T8G9PLFU8G;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CodeScanner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,7 +495,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CodeScanner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
