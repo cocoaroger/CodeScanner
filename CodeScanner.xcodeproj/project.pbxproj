@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19B0CF891136ABF180208403 /* libPods-CodeScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9240B62B8F4B89E9584F32D1 /* libPods-CodeScanner.a */; };
+		DB5463A420F7464400ED1EDC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB5463A320F7464400ED1EDC /* README.md */; };
 		DB74333C1BF9DB22004B3FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74333B1BF9DB22004B3FBF /* main.m */; };
 		DB74333F1BF9DB22004B3FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74333E1BF9DB22004B3FBF /* AppDelegate.m */; };
 		DB7433421BF9DB22004B3FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7433411BF9DB22004B3FBF /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		270EF2D22177463F7641CB49 /* Pods-CodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeScanner/Pods-CodeScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		9240B62B8F4B89E9584F32D1 /* libPods-CodeScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5463A320F7464400ED1EDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB7433371BF9DB22004B3FBF /* CodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB74333B1BF9DB22004B3FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB74333D1BF9DB22004B3FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		DB74332E1BF9DB22004B3FBF = {
 			isa = PBXGroup;
 			children = (
+				DB5463A320F7464400ED1EDC /* README.md */,
 				DB7433391BF9DB22004B3FBF /* CodeScanner */,
 				DB7433381BF9DB22004B3FBF /* Products */,
 				526A61721CDA5BFFE19D339D /* Pods */,
@@ -289,6 +292,7 @@
 			files = (
 				DB7433771BF9DB8A004B3FBF /* zbar-back.png in Resources */,
 				DB74337A1BF9DB8A004B3FBF /* zbar-samples.png in Resources */,
+				DB5463A420F7464400ED1EDC /* README.md in Resources */,
 				DB74334A1BF9DB22004B3FBF /* LaunchScreen.storyboard in Resources */,
 				DB74337E1BF9DD9F004B3FBF /* line@2x.png in Resources */,
 				DB7433471BF9DB22004B3FBF /* Assets.xcassets in Resources */,
@@ -482,7 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roger.CodeScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1b6781bf-d461-4efc-b665-a9af4b538594";
+				PROVISIONING_PROFILE = "3e3cd1ff-667a-4f99-b187-e5eccb68a63e";
 				PROVISIONING_PROFILE_SPECIFIER = AllDevelop;
 			};
 			name = Debug;
